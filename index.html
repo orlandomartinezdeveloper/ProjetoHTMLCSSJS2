@@ -5,35 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/be28d35773.js" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>New Project HTML CSS JS</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="https://i.pinimg.com/originals/ff/dd/ca/ffddcad7ccba66b60dd105e2084cf75a.png" alt="" class="logo-img">
-                <label for="" class="logo-txt">EMPRESA</label>
-            </div>
-            <input type="checkbox" id="check">
-            <label for="check" class="hamburguer-btn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul class="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><input type="checkbox" id="checkServ">
-                <label for="checkServ" class="servicesLabel">Services</label>
-                <ul class="serVarios">
-                    <li><a href="#">Film</a></li>
-                    <li><a href="#">Music</a></li>
-                    <li><a href="#">Photo</a></li>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="https://i.pinimg.com/originals/ff/dd/ca/ffddcad7ccba66b60dd105e2084cf75a.png" alt="" class="logo-img">
+                    <label for="" class="logo-txt">EMPRESA</label>
+                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="hamburguer-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-list">
+                    <li><a href="#home" onclick = "cerrar();">Home</a></li>
+                    <li><a href="#about" onclick = "cerrar();">About</a></li>
+                    <li><input type="checkbox" id="checkServ">
+                    <label for="checkServ" class="servicesLabel">Services</label>
+                    <ul class="serVarios">
+                        <li><a href="#service" onclick = "cerrar();">Film</a></li>
+                        <li><a href="#service" onclick = "cerrar();">Music</a></li>
+                        <li><a href="#service" onclick = "cerrar();">Photo</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#product" onclick = "cerrar();">Product</a></li>
+                    <li><a href="#contact" onclick = "cerrar();">Contact</a></li>
                 </ul>
-                </li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            </nav>
+        </header>
+        <main>
+            <h1 class="title" id="home">Home</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti magnam suscipit assumenda quos, nihil nobis fugit et sapiente natus, dolore possimus, error eum ab magni molestias quia sed perspiciatis autem corrupti corporis dolores sequi adipisci? Voluptatum at quasi totam? Obcaecati repellendus sapiente vel veniam aut iusto, dolores quaerat eum impedit ducimus voluptatibus ipsa repellat error, ea sunt, nesciunt excepturi delectus maiores libero omnis doloribus fugiat quasi? Itaque accusantium eius laborum optio. Iste, consectetur amet. Molestiae, rerum. Totam aliquam delectus, eaque at aspernatur sunt unde eos architecto autem voluptas dolorum nesciunt, est iusto consequuntur quam odit praesentium amet esse! Nobis, cumque. Illo provident doloribus excepturi officia distinctio facere earum deserunt dicta nobis culpa, sapiente sed consectetur enim neque? Vel soluta veniam magnam maxime! Optio quam voluptas voluptates? Quas vitae culpa eligendi voluptatum optio pariatur natus ut architecto, dolorum aut expedita quibusdam, nihil necessitatibus tempore, sint distinctio quaerat cum eius temporibus doloremque recusandae ipsa at mollitia quasi? Asperiores, eum possimus! Consectetur exercitationem doloremque placeat nam enim at autem labore magni cum quidem error, sunt, porro minima quam veritatis, omnis dolorem facere deserunt dolores. Corrupti, dignissimos. Rerum suscipit recusandae vero praesentium temporibus!</p>
+            <h1 class="title" id="about">About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dicta omnis cum in quo, velit ipsam doloribus ullam aspernatur, distinctio at quis tempora facere illum harum? Laboriosam quis quaerat assumenda voluptas illo! Amet reprehenderit nobis esse asperiores ullam incidunt explicabo quasi architecto facere fugiat ipsum ad, animi iste maiores eligendi, necessitatibus exercitationem? Laudantium animi perferendis magni odit explicabo? Ipsum, odit laborum laudantium corporis labore non ullam illo deleniti perferendis consequuntur, quisquam ad aliquid consectetur fuga dolorum alias vitae eius nam at rem veniam aperiam magni blanditiis. Ad, dolorem quidem sint rem delectus doloremque mollitia quisquam consectetur suscipit nostrum possimus adipisci vitae magni hic voluptatum eveniet fuga ipsa labore recusandae necessitatibus atque. Eius itaque dolorem minus ex modi in hic consectetur quia tempore corrupti pariatur obcaecati eveniet expedita voluptas, ipsum beatae incidunt mollitia officiis perferendis delectus ducimus reiciendis, unde necessitatibus doloribus. Dolor reprehenderit ex, accusantium, totam necessitatibus nihil alias, omnis debitis voluptatibus recusandae dolorem? Laborum debitis eaque aspernatur voluptatum praesentium sequi suscipit quo esse blanditiis obcaecati dignissimos error, illum consectetur, quis asperiores hic dicta rerum architecto a maxime. Rem, delectus perspiciatis. Molestiae officiis totam optio, ab reprehenderit labore repellat voluptate rerum!</p>
+            <h1 class="title" id="service">Service</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti cupiditate excepturi ipsum voluptatem recusandae! Dicta et molestias, sunt nobis suscipit ea deleniti quas cum pariatur, laudantium neque provident nemo! Sit, eveniet reiciendis voluptas aperiam quia quaerat suscipit. Numquam aliquam iure velit harum. Perferendis mollitia debitis neque, ad voluptas saepe ipsum sapiente numquam nostrum rem consequuntur repellendus repellat dolore accusamus maxime harum quidem velit voluptatibus. Excepturi, facilis obcaecati, saepe expedita quidem soluta ab repellat quae cupiditate eos nam sed, distinctio veritatis ut nostrum architecto dolorem minus velit aliquam. Quis pariatur eius, tempora libero tenetur fugiat quasi ratione praesentium perspiciatis. Necessitatibus asperiores vero, iure deleniti ea debitis quis ullam ratione a aliquid nulla id quae consequatur voluptate quam eaque doloremque consectetur cumque praesentium. Cumque magni provident mollitia molestiae sint repellat tempora quam iure quaerat, beatae veritatis cum alias fugit eveniet inventore eos adipisci nostrum iusto soluta blanditiis unde odio quia qui! Tempore quis accusantium vitae ut laudantium quam dolores molestiae quia vero molestias asperiores cupiditate a necessitatibus, sed, magnam, quasi corrupti repellat distinctio consectetur labore? Praesentium, voluptatibus sit, hic ex tenetur exercitationem, quas quaerat perferendis adipisci impedit at ratione culpa eligendi unde?</p>
+            <h1 class="title" id="product">Product</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum debitis adipisci doloremque inventore qui ex accusantium, perspiciatis odit? Illum nulla, odit vitae quod eaque ipsa? Cumque, excepturi minima mollitia eaque quisquam et delectus dolores laboriosam omnis laudantium incidunt consectetur voluptas recusandae in iusto provident molestias architecto tempora dolorem ratione consequatur. Mollitia, totam. Amet adipisci tempore, aliquam quasi vero a qui hic aperiam blanditiis praesentium odio ratione animi libero soluta, voluptatum fugiat vel, minus ipsa mollitia! Placeat ullam temporibus dolor in dolores laborum corrupti mollitia, id aut, rerum, accusantium tenetur. Nemo, suscipit, ullam quisquam cupiditate modi error et voluptatibus optio quasi dolores facere harum debitis exercitationem voluptatum atque. Placeat quidem odit exercitationem a id illo quia, architecto tenetur eos possimus blanditiis! Explicabo, odio iusto? Harum eius magnam itaque obcaecati, voluptatem explicabo veritatis libero dolorum repellendus incidunt delectus ipsum unde accusantium doloremque tenetur eveniet mollitia laboriosam expedita modi dignissimos, esse eos. Consequatur, corrupti hic consectetur distinctio accusamus debitis aliquid reprehenderit vel facilis ad labore earum ab ut excepturi aliquam fugiat repudiandae, adipisci, illum amet sunt quo. Modi nesciunt eveniet perferendis laborum quae? In, ex enim distinctio dolorum corrupti illum recusandae laborum placeat?</p>
+            <h1 class="title" id="contact">Contact</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum debitis adipisci doloremque inventore qui ex accusantium, perspiciatis odit? Illum nulla, odit vitae quod eaque ipsa? Cumque, excepturi minima mollitia eaque quisquam et delectus dolores laboriosam omnis laudantium incidunt consectetur voluptas recusandae in iusto provident molestias architecto tempora dolorem ratione consequatur. Mollitia, totam. Amet adipisci tempore, aliquam quasi vero a qui hic aperiam blanditiis praesentium odio ratione animi libero soluta, voluptatum fugiat vel, minus ipsa mollitia! Placeat ullam temporibus dolor in dolores laborum corrupti mollitia, id aut, rerum, accusantium tenetur. Nemo, suscipit, ullam quisquam cupiditate modi error et voluptatibus optio quasi dolores facere harum debitis exercitationem voluptatum atque. Placeat quidem odit exercitationem a id illo quia, architecto tenetur eos possimus blanditiis! Explicabo, odio iusto? Harum eius magnam itaque obcaecati, voluptatem explicabo veritatis libero dolorum repellendus incidunt delectus ipsum unde accusantium doloremque tenetur eveniet mollitia laboriosam expedita modi dignissimos, esse eos. Consequatur, corrupti hic consectetur distinctio accusamus debitis aliquid reprehenderit vel facilis ad labore earum ab ut excepturi aliquam fugiat repudiandae, adipisci, illum amet sunt quo. Modi nesciunt eveniet perferendis laborum quae? In, ex enim distinctio dolorum corrupti illum recusandae laborum placeat?</p>
+        </main>
+        <footer>
+            <p>Copyright 2021</p>
+        </footer>
+    </div>
+
+
 </body>
 </html>
